@@ -11,6 +11,6 @@ const readline = require('readline').createInterface({
 })
 
 readline.question("Ingresa un número: ", num=> {
-    console.log(fib(num))
+    console.log('fib(%d)= %d',num,fib(num))
     readline.close()
 })
